@@ -1,0 +1,41 @@
+.single-result{
+	box-shadow: 0px 2px 50px rgba(17, 34, 51, 0.1);
+    padding: 35px;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+.single-result:hover{
+    box-shadow: 14px 15px 15px 5px rgba(8, 58, 107, 0.1);
+}
+div.search-result{
+	background: #f9f9f9;
+}
+p{
+	line-height: 1.5em;
+}
+
+/*Single package css*/
+.package-details .col-md-6{
+    padding: 30px;
+}
+.col-md-6.col-md-offset-3 p {
+    line-height: 35px;
+}
+.package-meta {
+    padding-bottom: 30px;
+}
+a.btn.btn-primary.btn-lg:hover {
+    background: green;
+    color: black;
+    font-size: 21px;
+}
+
+
+/*Css for comment template*/
+.single-comment {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px #757ad0;
+    padding: 24px;
+    margin-bottom: 20px;
+}
